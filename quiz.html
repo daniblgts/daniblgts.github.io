@@ -1,0 +1,71 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>project part 4</title>
+	<!--Dani Balagtas, CSCE 102 section 014, 18 April 2023.-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="content">
+	<header>
+		<h1>Dani Balagtas</h1>
+	</header>
+	<nav id="main-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main class="col-container">
+		<section>
+			<h3>Website Development Quiz</h3>
+			<p>
+				<label for="question-one">What is the first line of code in HTML?</label><br>
+				<select id="question-one">
+					<option>DOCTYPE! html</option>
+					<option>head</option>
+					<option>html lang="en"</option>
+					<option>meta charset="utf-8"</option>
+				</select>
+			</p>
+			<p>
+				<label for="question-two">What is the last line of code in HTML?</label><br>
+				<select id="question-two">
+					<option>/head</option>
+					<option>/body</option>
+					<option>/footer</option>
+					<option>/html</option>
+				</select>
+			</p>
+			<p>
+				<label for="question-three">Which of the following is not part of if/else statements?</label><br>
+				<select id="question-three">
+					<option>if</option>
+					<option>else</option>
+					<option>if else</option>
+					<option>else if</option>
+				</select>
+			</p>
+			<p>
+				<label for="question-four">What is the correct capitalization for this?</label><br>
+				<select id="question-four">
+					<option>document.getelementbyid</option>
+					<option>document.GetElementById</option>
+					<option>document.getElementById</option>
+					<option>Document.getElementById</option>
+				</select>
+			</p>
+			<button onclick="showResults()">Submit</button>
+		</section>
+		<section id="result">
+		</section>
+	</main>
+	<footer>
+		<p>&copy;Balagtas</p>
+	</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

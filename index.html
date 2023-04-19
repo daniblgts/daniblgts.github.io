@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>project part 4</title>
+	<!--Dani Balagtas, CSCE 102 section 014, 18 April 2023.-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="content">
+	<header>
+		<h1>Dani Balagtas</h1>
+	</header>
+	<nav id="main-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main class="col-container">
+	<section class="slideshow">
+		<img src="images/kafka.jpg" id="kafka">
+		<img src="images/bun.jpg" id="bun" class="hidden">
+		<img src="images/climb.jpg" id="climb" class="hidden">
+		<img src="images/septum.jpg" id="septum" class="hidden">
+	</section>
+	<section>
+		<h2>About Me</h2>
+			<p>My name is Dani Balagtas. I am 22 years old, and I am a senior at the University of South Carolina. I major in psychology and am doing a minor in music. This is my last semester, and I am counting down the days until it's over. I'm excited to graduate even though my time here seems to have flown by.</p>
+			<p class="hidden" id="see">Besides school, I also work at Trader Joe's. I am a crew member there, and I love my job. My coworkers are lots of fun to be around, and the environment is very positive, which is good for me to be in. In my free time outside of school and work, I like to go to the gym and play music. I go the gym 5 days a week, and I sing an play guitar whenever I can.</p>
+			<a href="#" id="show" onclick="see()">See More...</a>
+		<h2>My Future Career Plans</h2>
+			<p>When I graduate, my main goal is to move away from South Carolina. I have been here too long for my liking, and I am in desperate need of a change. Since I am in psychology, there are lots of opportunities available for me. I could go into human resources, marketing, counseling, and so many other options. In all honesty, I don't really care what I do as long as it's not here and as long as it pays well enough for me to live comfortably wherever I decide to move to.</p>
+			<p class="hidden" id="more">I've thought about what I will do just in case that plan doesn't work out, and there's definitely a chance that it won't. If I can't find anything that makes me happy after two years, I will apply to graduate school to study music therapy. Music therapy has always interested me, and I would love to do it, but at the moment, I am inredibly burnt out from school. I need a break from the education system, but I may go back to it one day.</p>
+			<a href="#" id="less" onclick="more()">See More...</a>
+		<h2>What I Learned From Computer Science</h2>
+			<iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/2AgoatIVZA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</section>
+	</main>
+	<footer>
+		<p>&copy; Balagtas</p>
+	</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
